@@ -35,7 +35,7 @@ public class EmailConsumer {
     private void sendActuleEmail(EmailFormatDTO emailMessageToSend) {
         // Sending an email using SMTP protocol
         final String fromEmail = emailMessageToSend.getFrom(); //requires valid gmail id
-        final String password = "jgozcvtvbvdrvhwm"; // correct password for gmail id
+        final String password = "vfntgaydbekjwjhd"; // correct password for gmail id
         final String toEmail = emailMessageToSend.getTo(); // can be any email id
         System.out.println("TLSEmail Start");
         Properties props = new Properties();
